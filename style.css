@@ -1,0 +1,15 @@
+.brown-sugar {
+    color: rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#table-yuk {
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    background-color: #a45167;
+    padding: 20px;
+}
