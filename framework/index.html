@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Bootstrap demo</title>
+  </head>
+  <body>
+
+    <!-- Navbar Start -->
+  
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #b0e0e6;">
+      <div class="container">
+        <a class="navbar-brand" href="#">Biodata</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <!-- <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#myskill">My Skill</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar End  -->
+
+    <!-- Jumbo tron Start -->
+
+    <section class="jumbotron text-center">
+      <img src="img/image- hero.jpg" alt="Thompson" width="300" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Mickael Thompson</h1>
+      <p class="lead">Website Developer | Tukang Gedor </p>
+      
+    </section>
+
+    <!-- Jumbotron End  -->
+
+    <!-- About Me Start -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Skill</h2>
+          </div>
+        </div>
+        <div class="row justify-content-between fs-5 text-center">
+          <div class="col-md-4">
+            <img src="img/image-about.jpg" alt="Gambar About" style="width:600px;height:400px;" >
+          </div>
+          <div class="col-md-4">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat consectetur consequuntur omnis distinctio vitae corrupti sunt, architecto, blanditiis commodi labore porro itaque excepturi aperiam exercitationem aliquam nesciunt quis facilis nobis odit ea beatae ducimus? Nisi dolores modi ut, repellendus placeat dolorum aliquam blanditiis explicabo eaque, nemo vitae eveniet nostrum quidem omnis, nesciunt error voluptate iusto ullam fugiat iste reiciendis quam!!</p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <!-- Akhir About -->
+
+    <!-- About Me End -->
+
+    <!-- My Skill Start  -->
+
+    <section id="myskill">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Skill</h2>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="img/about-1.jpg" class="card-img-top" alt="myskill-1">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/about-2.jpg" class="card-img-top" alt="myskill-2">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/about-3.jpg" class="card-img-top" alt="myskill-3">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/about-4.jpg" class="card-img-top" alt=myskill-4">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- My Skill End -->
+
+
+  <!-- Contact Me Start -->
+
+  <section id="contact">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>Contact Me</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" aria-describedby="name" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="email" />
+              <div id="email" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me End -->
+
+  <!-- Footer Start -->
+</br>
+  <footer class="text-black text-center pb-3" style="background-color: #b0e0e6;">
+    <p>
+      <i class="bi bi-hammer text-danger"></i> Latihan Biodata Bootstrap Seal AWS 2023, Created by
+      <a href="https://www.instagram.com/sherennov_/" class="text-black fw-bold"> <i class="bi bi-person-circle"></i>Sheren Novita Ara</a>
+    </p>
+  </footer>
+
+
+  <!-- Footer end -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
