@@ -11,13 +11,11 @@
     <link rel="stylesheet" href="style.css" />
     <title>Bootstrap demo</title>
   </head>
-  <body>
-
     <!-- Navbar Start -->
   
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffa5ea;">
       <div class="container">
-        <a class="navbar-brand" href="#">Biodata</a>
+        <a class="navbar-brand fw-bold" href="#">Biodata</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -42,22 +40,20 @@
     <!-- Jumbo tron Start -->
 
     <section class="jumbotron text-center">
-      <img src="img/image- hero.jpg" alt="Thompson" width="300" class="rounded-circle img-thumbnail" />
+      <img src="img/image- hero2.jpg" alt="Thompson" width="300" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Mickael Thompson</h1>
-      <p class="lead">Website Developer | Tukang Gedor </p>
+      <p class="lead">Website Developer </p>
       
     </section>
 
     <!-- Jumbotron End  -->
 
     <!-- About Me Start -->
-
-    <!-- About -->
     <section id="about">
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>My Skill</h2>
+            <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-between fs-5 text-center">
@@ -71,67 +67,73 @@
       </div>
       
     </section>
-    <!-- Akhir About -->
 
     <!-- About Me End -->
 
     <!-- My Skill Start  -->
 
+  </br>
+
     <section id="myskill">
       <div class="container">
-        <div class="row text-center mb-3">
+        <div class="row text-center">
           <div class="col">
             <h2>My Skill</h2>
           </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-          <div class="col">
+        <div class="row">
+          <div class="col-md-3 mb-2">
             <div class="card">
-              <img src="img/about-1.jpg" class="card-img-top" alt="myskill-1">
+              <img src="img/about-1.jpg" class="card-img-top" alt="about-1">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">PHP</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-3 mb-2">
             <div class="card">
-              <img src="img/about-2.jpg" class="card-img-top" alt="myskill-2">
+              <img src="img/about-2.jpg" class="card-img-top" alt="about-2">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">Web Design</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-3 mb-2">
             <div class="card">
-              <img src="img/about-3.jpg" class="card-img-top" alt="myskill-3">
+              <img src="img/about-3.jpg" class="card-img-top" alt="about-3">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                <h5 class="card-title">Design Thinking</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-3 mb-2">
             <div class="card">
-              <img src="img/about-4.jpg" class="card-img-top" alt=myskill-4">
+              <img src="img/about-4.jpg" class="card-img-top" alt="about-4">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">Project Management</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
         </div>
+      </div>
     </section>
 
     <!-- My Skill End -->
 
 
   <!-- Contact Me Start -->
-
+  </br>
   <section id="contact">
     <div class="container">
-      <div class="row text-center mb-3">
+      <div class="row text-center">
         <div class="col">
           <h2>Contact Me</h2>
         </div>
@@ -140,19 +142,17 @@
         <div class="col-md-6">
           <form>
             <div class="mb-3">
-              <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name" aria-describedby="name" />
+              <label for="name" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" id="name" aria-describedby="name">            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" aria-describedby="email">
             </div>
             <div class="mb-3">
-              <label for="email" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="email" aria-describedby="email" />
-              <div id="email" class="form-text">We'll never share your email with anyone else.</div>
+              <label for="pesan" class="form-label">Pesan</label>
+              <textarea class="form-control" id="pesan" rows="3"></textarea>
             </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Kirim</button>
           </form>
         </div>
       </div>
@@ -163,13 +163,10 @@
 
   <!-- Footer Start -->
 </br>
-  <footer class="text-black text-center pb-3" style="background-color: #ffa5ea;">
-    <p>
-      <i class="bi bi-hammer text-danger"></i> Latihan Biodata Bootstrap Seal AWS 2023, Created by
-      <a href="https://www.instagram.com/sherennov_/" class="text-black fw-bold"> <i class="bi bi-person-circle"></i>Sheren Novita Ara</a>
-    </p>
-  </footer>
 
+  <footer style="background-color: #ffa5ea;" class="text-center p-3">
+    <p>Latihan FrameWork Bootstrap SEAL AWS 2023 , Created By <a href="https://www.instagram.com/sherennov_/" class="fw-bold"> Sheren Novita Ara </a> </p>
+  </footer>
 
   <!-- Footer end -->
     
